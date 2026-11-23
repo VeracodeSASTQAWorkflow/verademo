@@ -12,7 +12,6 @@ ENV MYSQL_DATABASE=blab
 
 # Copy DB schema for DB initialisation
 COPY db /docker-entrypoint-initdb.d
-
 # Install OpenJDK 8 and Maven
 # Also install the fortune-mod fortune game
 # https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
